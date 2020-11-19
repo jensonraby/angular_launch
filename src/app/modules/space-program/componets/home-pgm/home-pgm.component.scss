@@ -1,0 +1,38 @@
+#filter {
+    .filter-header {
+        border-bottom: 1px solid #212529;
+        text-align: center;
+    }
+    .pgm-text {
+        font-weight: 500;
+    }
+
+    .year-badge {
+        padding-bottom: 0.8rem;
+        cursor: pointer;
+    }
+}
+
+#pgm-container {
+    .program-card {
+        padding: 0rem 0.4rem 0.6rem 0.4rem;
+        .card {
+            height: 100%;
+        }
+    }
+
+    .pgm-text-row {
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .pgm-title {
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+
+.pgm-text {
+    font-weight: 600;
+    font-size: 0.85rem;
+}
